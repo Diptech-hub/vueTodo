@@ -9,8 +9,8 @@
     <li v-for="(item, index) in items" :key="index">
       {{item}} 
       <br />
-      <button class="btndel" @click="deleteItem(index)">Delete</button>
       <button class="btnedt" @click="editItem(index)">Edit</button>
+      <button class="btndel" @click="deleteItem(index)">Delete</button>
     </li>
   </ul>
   </div>
@@ -64,7 +64,7 @@ li{
 }
 
 ul{
-  margin-right:50px;
+  margin-right: 75px;
 }
 
 button{
